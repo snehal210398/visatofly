@@ -1,0 +1,27 @@
+
+#join-us-btn:hover {
+    background-color: #85a76a !important; 
+    border-color: #85a76a !important;
+    color: #fff !important;
+  }
+  
+
+  #learn-more-btn {
+    color: #96BB76 !important;
+    border-color: #96BB76 !important;
+  }
+  
+  #learn-more-btn:hover {
+    background-color: #96BB76 !important;
+    color: #fff !important;
+    border-color: #96BB76 !important;
+  }
+  
+  #learn-more-btn:focus, 
+  #learn-more-btn:active {
+    background-color: #fff !important;
+    color: #96BB76 !important;
+    border-color: #96BB76 !important;
+    box-shadow: none;
+  }
+  

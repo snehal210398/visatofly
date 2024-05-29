@@ -1,0 +1,19 @@
+<section class="py-5" style="background-color: #FFF2F3 !important;">
+    <div class="container text-center">
+        <p style="color: #96BB76; font-weight: 500;">Newsletter</p>
+        <h2 class="fw-bold">Watch our Courses</h2>
+        <p style="color: #737373;" class="mb-5">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+        <form [formGroup]="subscriptionForm" (ngSubmit)="onSubmit()">
+            <div class="mb-3 d-flex align-items-center">
+                <input type="email" formControlName="email" class="form-control" id="email" placeholder="Your Email" style="border-radius: 0;" [ngClass]="{ 'is-invalid': submitted && f['email'].errors }">
+                <button type="submit" class="btn" style="background-color: #96BB76; color: #fff; border-radius: 0;">Subscribe</button>
+            </div>
+            <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+                <div *ngIf="f['email'].errors['required']">Email is required</div>
+                <div *ngIf="f['email'].errors['email']">Email must be valid</div>
+            </div>
+        </form>
+    </div>
+</section>
+
+

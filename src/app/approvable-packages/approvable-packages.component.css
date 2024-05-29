@@ -1,0 +1,19 @@
+.red-line {
+    height: 2px;
+    background-color: red;
+    width: 50px;
+  }
+  
+  .learn-more-link {
+    color: #96BB76;
+    text-decoration: none;
+  }
+  
+  .learn-more-link:hover {
+    text-decoration: underline;
+  }
+  
+  .arrow {
+    font-weight: bold;
+  }
+  
